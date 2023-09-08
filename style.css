@@ -34,6 +34,7 @@ body {
   align-items: center;
   background: var(--color-header);
   padding: 12px 4%;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.5);
 }
 
 /* header logo & text style */
@@ -76,4 +77,87 @@ body {
 .header .nav-item ul li a:hover {
   color: var(--color-white);
   border-bottom: 2px solid var(--color-text);
+}
+
+/* Home Style */
+.home_main {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 4%;
+  background: var(--color-body);
+}
+
+.home_main .content {
+  width: 55%;
+}
+
+.home_main .content .content_headline {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--color-white);
+  letter-spacing: -0.1rem;
+}
+
+.home_main .content .content_subtext {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--color-text);
+  margin: 0.8rem 0;
+}
+
+.home_main .content .social-media {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.home_main .content .social-media i {
+  height: 2.5rem;
+  width: 2.5rem;
+  font-size: 1.5rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-text);
+  border: 2px solid var(--color-white);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.home_main .content .social-media i:hover {
+  color: var(--color-white);
+  border-color: var(--color-text);
+}
+
+.home_main .content .link_btn {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.home_main .content .link_btn a {
+  padding: 0.7rem 1.7rem;
+  background: transparent;
+  border-radius: 0.6rem;
+  color: var(--color-text);
+  border: 2px solid var(--color-text);
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.home_main .content .link_btn a:hover {
+  color: var(--color-white);
+  border-color: var(--color-white);
+}
+
+.home_main .image {
+  width: 45%;
+}
+
+.home_main .image img {
+  width: 100%;
 }
