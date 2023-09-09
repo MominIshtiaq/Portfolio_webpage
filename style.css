@@ -287,3 +287,77 @@ body {
   color: var(--color-white);
   border-color: var(--color-white);
 }
+
+/* Proficiency Style */
+.proficiency_heading {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 100px;
+}
+
+.proficiency_main {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 100px);
+  background: var(--color-white);
+  padding: 12px 4%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+
+.proficiency_main .proficienct_text_container {
+  width: 50%;
+  padding: 5%;
+}
+
+.proficiency_main .proficienct_text_container .proficient_text {
+  text-align: center;
+}
+
+.proficiency_main .proficienct_text_container .proficient_text h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.proficiency_main .proficient_scale {
+  width: 50%;
+  padding: 4%;
+}
+
+.proficiency_main .proficient_scale h1 {
+  margin-bottom: 0.67rem;
+}
+
+.proficiency_main .proficient_scale .container {
+  width: 100%;
+  background: gray;
+}
+
+.skilled {
+  color: #fff;
+  text-align: right;
+  padding-right: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.html {
+  width: 70%;
+  background: red;
+}
+
+.css {
+  width: 85%;
+  background: lightgreen;
+}
+
+.js {
+  width: 65%;
+  background: blueviolet;
+}
