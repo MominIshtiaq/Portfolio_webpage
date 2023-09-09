@@ -342,6 +342,8 @@ body {
 .proficiency_main .proficient_scale .container {
   width: 100%;
   background: gray;
+  border-radius: 6rem;
+  overflow: hidden;
 }
 
 .skilled {
