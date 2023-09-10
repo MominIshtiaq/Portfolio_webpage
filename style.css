@@ -428,7 +428,7 @@ body {
 }
 
 .project_main .project_card .project_title a,
-i {
+.project_main .project_card .project_title a i {
   font-size: 0.75rem;
   color: #006eff;
   text-decoration: none;
@@ -453,6 +453,16 @@ i {
 .project_main .project_card .project_btn button:hover {
   color: var(--color-white);
   border-color: var(--color-white);
+}
+
+/* Contact style */
+.contact_main {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 4%;
 }
 
 /* footer Style */
